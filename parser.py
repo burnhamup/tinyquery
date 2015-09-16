@@ -396,6 +396,5 @@ def parse_text(text):
     if should_rebuild_parser:
         parser = yacc.yacc()
     else:
-        import parsetab
-        parser = yacc.yacc(debug=0, write_tables=0, tabmodule=parsetab)
+        parser = yacc.yacc(debug=0, write_tables=0)
     return parser.parse(text, lexer=lexer.get_lexer())
