@@ -6,7 +6,6 @@ from ply import yacc
 import tq_ast
 import lexer
 
-
 tokens = lexer.tokens
 
 precedence = (

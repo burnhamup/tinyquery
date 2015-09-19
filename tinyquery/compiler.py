@@ -5,8 +5,8 @@ This step has a number of responsibilities:
 -Resolve all select fields to their aliases and types.
 """
 import collections
-import tinyquery
 
+import tinyquery
 import parser
 import runtime
 import tq_ast

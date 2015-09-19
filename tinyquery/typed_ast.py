@@ -1,6 +1,7 @@
 """A set of AST classes with types and aliases filled in."""
 
 import collections
+
 import type_context
 
 

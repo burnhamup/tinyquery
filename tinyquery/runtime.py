@@ -3,8 +3,8 @@ import abc
 import random
 import time
 import math
-import compiler
 
+import compiler
 import tq_types
 
 
